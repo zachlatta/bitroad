@@ -1,0 +1,8 @@
+.row
+  = simple_form_for @listing do |f|
+    = f.input :name
+    = f.input :description
+    = f.input :file
+    = f.input :price
+    = f.input :bitcoin_address
+    = f.button :submit

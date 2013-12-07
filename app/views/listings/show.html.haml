@@ -1,0 +1,9 @@
+.row
+  %h1
+    = @listing.name
+  - if @listing.description
+    %p
+      = @listing.description
+  = "Price: #{ @listing.price } BTC"
+  = simple_form_for @listing, url: purchase_listing_path do |f|
+    = f.button :submit, "Purchase"
