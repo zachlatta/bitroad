@@ -33,6 +33,7 @@ gem 'paperclip'
 gem 'haml-rails'
 gem 'bitpay-client', git: "git://github.com/zachlatta/ruby-client"
 gem 'bitcoin-ruby'
+gem 'compass-rails', git: "git://github.com/Labradorom/compass-rails"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

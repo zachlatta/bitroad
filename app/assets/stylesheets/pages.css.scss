@@ -1,0 +1,49 @@
+$include-html-global-classes: false;
+@import "foundation/components/global";
+@import "compass/css3/background-size";
+
+.homepage-hero {
+  background-image: url("http://my.daemen.edu/admissions/blog/wp-content/uploads/2013/09/Road-Wallpaper.jpg");
+  @include background-size(cover);
+  height: 180px;
+  text-align: left;
+  position: relative;
+  padding: 40px 5px 30px;
+
+  h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  h3 {
+    color: white;
+    font-size: 20px
+  }
+
+  @media #{$medium-up} {
+    padding: 100px 20px 0 20px;
+    height: 300px;
+
+    h1 {
+      font-size: 32px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+  }
+
+  @media #{$large-up} {
+    height: 500px;
+
+    h1 {
+      font-size: 54px;
+    }
+
+    h3 {
+      font-size: 36px;
+    }
+  }
+}
