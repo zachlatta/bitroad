@@ -63,6 +63,9 @@ GEM
       sass (~> 3.1)
     erubis (2.7.0)
     execjs (2.0.2)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     foundation-rails (5.0.2.0)
       railties (>= 3.1.0)
       sass (>= 3.2.0)
@@ -157,6 +160,7 @@ DEPENDENCIES
   bitpay-client!
   coffee-rails (~> 4.0.0)
   compass-rails!
+  figaro
   foundation-rails
   haml-rails
   jbuilder (~> 1.2)
