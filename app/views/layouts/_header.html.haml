@@ -1,0 +1,19 @@
+%nav.top-bar.hide-for-small{"data-topbar" => ""}
+  %ul.title-area
+    %li.name
+      %h1
+        %a{:href => "/"} Bitroad
+  %section.top-bar-section
+    %ul.right
+      = render "layouts/nav_items"
+%nav.tab-bar.show-for-small
+  %section.left-small
+    %a.left-off-canvas-toggle.menu-icon
+      %span
+  %section.middle.tab-bar-section
+    %h1.title Bitroad
+%aside.left-off-canvas-menu
+  %ul.off-canvas-list
+    %li
+      %label Navigation
+    = render "layouts/nav_items"

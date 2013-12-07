@@ -8,5 +8,10 @@
     = javascript_include_tag "vendor/modernizr"
     = csrf_meta_tags
   %body
-    = yield
+    .off-canvas-wrap
+      .inner-wrap
+        = render "layouts/header"
+        %section.main-section
+          = yield
+        %a.exit-off-canvas
     = javascript_include_tag "application"
