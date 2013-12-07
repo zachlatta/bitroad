@@ -8,6 +8,8 @@ class ListingsController < ApplicationController
   def create
     @listing = Listing.new(listing_params)
 
+    @listing.price = @listing.price / 1000 # because the price is in mBTC. TODO: make this not an ugly hack
+
     if @listing.save
       redirect_to @listing
     else

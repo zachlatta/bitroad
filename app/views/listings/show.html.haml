@@ -4,6 +4,6 @@
   %h1= @listing.name
   - if @listing.description
     %p= @listing.description
-  %p= "Price: #{ @listing.price } Ƀ"
+  %p= "Price: #{ @listing.price * 1000 } mBTC"
   = simple_form_for @listing, url: purchase_listing_path do |f|
     = f.button :submit, "Purchase"
