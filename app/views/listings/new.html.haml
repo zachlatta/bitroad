@@ -1,8 +1,10 @@
 .row
-  = simple_form_for @listing do |f|
-    = f.input :name
-    = f.input :description
-    = f.input :file
-    = f.input :price
-    = f.input :bitcoin_address
-    = f.button :submit
+  .large-6.columns
+    %h1 Create Listing
+    = simple_form_for @listing do |f|
+      = f.input :name
+      = f.input :description
+      = f.input :file
+      = f.input :price, label: "Price (in BTC)"
+      = f.input :bitcoin_address
+      = f.button :submit
