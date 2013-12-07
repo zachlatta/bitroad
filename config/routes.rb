@@ -5,6 +5,8 @@ Bitroad::Application.routes.draw do
     end
   end
 
+  resources :invoices
+
   get "home", to: redirect("/")
 
   root to: "pages#home"

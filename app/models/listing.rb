@@ -2,6 +2,7 @@ require 'bitcoin'
 
 class Listing < ActiveRecord::Base
   has_attached_file :file
+  has_many :invoices
 
   validate :valid_bitcoin_address
   validates :name, presence: true

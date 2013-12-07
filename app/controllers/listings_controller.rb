@@ -24,10 +24,10 @@ class ListingsController < ApplicationController
   def purchase
     @listing = Listing.find(params[:id])
     client = BitPay::Client.new Figaro.env.bitpay_key
-    invoice = client.post 'invoice', { price: @listing.price, currency: 'BTC', redirectURL: "#{root_url[0..-2]}#{@listing.file.url}" }
+    invoice = Invoice.create(file: @listing.file)
+    bp_invoice = client.post 'invoice', { price: @listing.price, currency: 'BTC', redirectURL: "#{root_url[0..-2]}#{invoice_path(invoice)}" }
     if invoice
-      p invoice
-      redirect_to invoice["url"]
+      redirect_to bp_invoice["url"]
     else
       redirect_to root_path
     end
