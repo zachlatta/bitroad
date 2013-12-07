@@ -36,6 +36,7 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.1)
     atomic (1.1.14)
+    bitcoin-ruby (0.0.3)
     builder (3.1.4)
     climate_control (0.0.3)
       activesupport (>= 3.0)
@@ -139,6 +140,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  bitcoin-ruby
   bitpay-client!
   coffee-rails (~> 4.0.0)
   foundation-rails

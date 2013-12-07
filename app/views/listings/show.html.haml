@@ -1,11 +1,9 @@
 - provide(:title, @listing.name)
 
 .row
-  %h1
-    = @listing.name
+  %h1= @listing.name
   - if @listing.description
-    %p
-      = @listing.description
-  = "Price: #{ @listing.price } BTC"
+    %p= @listing.description
+  %p= "Price: #{ @listing.price } Ƀ"
   = simple_form_for @listing, url: purchase_listing_path do |f|
     = f.button :submit, "Purchase"
