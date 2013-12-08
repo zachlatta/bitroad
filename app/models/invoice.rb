@@ -1,3 +1,5 @@
+require 'figaro'
+
 class Invoice < ActiveRecord::Base
   extend FriendlyId
   friendly_id :code, use: :slugged
