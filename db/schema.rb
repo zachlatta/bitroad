@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131207235911) do
+ActiveRecord::Schema.define(version: 20131208002027) do
 
   create_table "friendly_id_slugs", force: true do |t|
     t.string   "slug",                      null: false
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20131207235911) do
     t.integer  "file_file_size"
     t.datetime "file_updated_at"
     t.string   "slug"
+    t.string   "session_id"
   end
 
   add_index "invoices", ["slug"], name: "index_invoices_on_slug", unique: true

@@ -9,6 +9,7 @@ class Invoice < ActiveRecord::Base
   }
 
   validates :file, presence: true
+  validates :session_id, presence: true
 
   private
 
