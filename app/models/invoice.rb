@@ -5,7 +5,7 @@ class Invoice < ActiveRecord::Base
   belongs_to :listing
   has_attached_file :file, {
     url: "/system/:hash.:extension",
-    hash_secret: Figaro.env.paperclip_hash_secret
+    hash_secret: Figaro.env.paperclip_secret
   }
 
   validates :file, presence: true
