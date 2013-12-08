@@ -33,6 +33,7 @@ gem 'bitcoin-ruby'
 gem 'compass-rails', git: "git://github.com/Labradorom/compass-rails"
 gem 'figaro'
 gem 'friendly_id'
+gem 'coinbase'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
