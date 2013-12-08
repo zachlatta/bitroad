@@ -2,10 +2,26 @@ $include-html-global-classes: false;
 @import "foundation/components/global";
 @import "compass/css3/background-size";
 
+body, html {
+  height: 100%;
+}
+
+.off-canvas-wrap {
+  height: 100%;
+}
+
+.inner-wrap {
+  height: 100%;
+}
+
+.main-section {
+  height: 100%;
+}
+
 .homepage-hero {
   background-image: url("http://my.daemen.edu/admissions/blog/wp-content/uploads/2013/09/Road-Wallpaper.jpg");
   @include background-size(cover);
-  height: 180px;
+  height: 100%;
   text-align: left;
   position: relative;
   padding: 40px 5px 30px;
@@ -24,7 +40,6 @@ $include-html-global-classes: false;
 
   @media #{$medium-up} {
     padding: 100px 20px 0 20px;
-    height: 300px;
 
     h1 {
       font-size: 32px;
@@ -36,8 +51,6 @@ $include-html-global-classes: false;
   }
 
   @media #{$large-up} {
-    height: 500px;
-
     h1 {
       font-size: 54px;
     }
