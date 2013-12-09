@@ -34,6 +34,7 @@ gem 'compass-rails', git: "git://github.com/Labradorom/compass-rails"
 gem 'figaro'
 gem 'friendly_id'
 gem 'coinbase'
+gem 'aws-sdk'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
