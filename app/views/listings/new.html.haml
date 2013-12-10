@@ -7,6 +7,7 @@
       = f.input :name
       = f.input :description
       = f.input :file
-      = f.input :price, label: "Price (in BTC)"
+      = f.input :price, label: "Price (in BTC)",
+        hint: "10% of every purchase goes to a Bitcoin-accepting charity."
       = f.input :bitcoin_address
       = f.button :submit
