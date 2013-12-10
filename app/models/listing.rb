@@ -8,7 +8,8 @@ class Listing < ActiveRecord::Base
   validates :name, presence: true
   validates :description, length: { maximum: 500 }
   validates :file, presence: true
-  validates :price, presence: true
+  validates :price, presence: true, numericality: { greater_than: 0.005,
+                                                    less_than: 0.05 }
   validates :bitcoin_address, presence: true
 
   private
