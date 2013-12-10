@@ -5,3 +5,12 @@ anonymously online. It was created in under 7 hours for the Virtual Piggy 2013
 hackathon.
 
 It's live [here](http://bitroad.io).
+
+## Usage
+
+1. Go to the website
+2. Create a listing
+3. Share the listing's link with anyone online
+4. Anyone with the link can easily purchase the listing with bitcoin
+
+![](http://i.imgur.com/FjjOmMt.gif)
