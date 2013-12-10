@@ -19,7 +19,7 @@ body, html {
 }
 
 .homepage-hero {
-  background-image: url("http://my.daemen.edu/admissions/blog/wp-content/uploads/2013/09/Road-Wallpaper.jpg");
+  background-image: image-url("background.jpg");
   @include background-size(cover);
   height: 100%;
   text-align: left;
