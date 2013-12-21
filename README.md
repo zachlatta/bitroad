@@ -1,4 +1,4 @@
-# Bitroad
+# Bitroad [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/zachlatta/bitroad/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 Bitroad is an online marketplace that lets anyone sell anything safely and
 anonymously online. It was created in under 7 hours for the Virtual Piggy 2013
