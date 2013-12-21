@@ -14,3 +14,7 @@ It's live [here](http://bitroad.io).
 4. Anyone with the link can easily purchase the listing with bitcoin
 
 ![](http://i.imgur.com/FjjOmMt.gif)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/zachlatta/bitroad/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
