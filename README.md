@@ -1,4 +1,4 @@
-# Bitroad ![Analytics](https://ga-beacon.appspot.com/UA-34529482-6/bitroad/readme)
+# Bitroad ![Analytics](https://ga-beacon.appspot.com/UA-34529482-6/bitroad/readme?pixel)
 
 Bitroad is an online marketplace that lets anyone sell anything safely and
 anonymously online. It was created in under 7 hours for the Virtual Piggy 2013
