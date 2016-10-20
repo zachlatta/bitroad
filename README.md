@@ -2,6 +2,8 @@
 
 Bitroad is an online marketplace that lets anyone sell anything safely and anonymously online. It was created in under 7 hours for the Virtual Piggy 2013 hackathon. It won grand prize for the age 16-19 division.
 
+Bitroad is no longer maintained. If you're interested in taking over the project, please open an issue :smile:.
+
 ## Usage
 
 1. Go to the website
